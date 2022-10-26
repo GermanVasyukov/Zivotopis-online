@@ -1,6 +1,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
+    width: 100%;
+    margin: 0;
     
 }
 .main-container{
@@ -14,7 +16,7 @@ body{
 
 @media screen and (max-width: 768px){
     .main-container{
-        width: 1280;
+        width: 100%;
         flex-direction: column;
         display: table-footer-group;
     }
@@ -196,7 +198,7 @@ a {
 .contacts-section,
 .tech-skills-section,
 .soft-skills-section{
-    margin: 50px 0 0 40px;
+    margin: 50px 40px 0 40px;
 
 }
 .sidebar-title{
